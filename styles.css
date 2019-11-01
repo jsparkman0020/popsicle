@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.container {
+    position: relative;
+    margin-top: 150px;
+    background-color: #bad6ba;
+    box-shadow: 10px 10px 5px grey;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 3em;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #212529;
+    color: #bad6ba;
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper {
+    height: 208px;
+    position: relative;
+}
+
+ul a {
+    color: #bad6ba;
+}
+
+li {
+    display: inline;
+    padding-left: 10px;
+}
